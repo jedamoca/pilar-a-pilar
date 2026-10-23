@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title id="title">Pilar a Pilar</title>
+  <desc id="desc">Tres pilares ascendentes que representan el progreso paso a paso.</desc>
+  <rect width="64" height="64" rx="16" fill="#16794b"/>
+  <path d="M10 51.5h44" fill="none" stroke="#a9ddbd" stroke-width="2.5" stroke-linecap="round"/>
+  <rect x="13" y="35" width="10" height="16" rx="3" fill="#bce8cb"/>
+  <rect x="27" y="27" width="10" height="24" rx="3" fill="#e5f5eb"/>
+  <rect x="41" y="17" width="10" height="34" rx="3" fill="#ffffff"/>
+  <path d="M16 30.5 30 22.5 44 12" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" opacity=".92"/>
+  <path d="M37.5 12H44v6.5" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

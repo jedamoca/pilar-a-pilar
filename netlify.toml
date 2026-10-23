@@ -1,0 +1,3 @@
+[build]
+  # Aplicación estática: no necesita un paso de compilación.
+  publish = "."

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#16794b">
+  <meta name="description" content="Pilar a Pilar te ayuda a evaluar las áreas importantes de tu vida, crear metas semanales y avanzar a tu ritmo.">
+  <meta name="application-name" content="Pilar a Pilar">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <title>Pilar a Pilar — crecimiento personal</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Saltar al contenido principal</a>
+  <header class="site-header">
+    <a class="brand" href="#inicio" data-nav="welcome" aria-label="Pilar a Pilar, inicio">
+      <img class="brand-mark" src="./favicon.svg" alt="" aria-hidden="true">
+      <span>Pilar <strong>a Pilar</strong></span>
+    </a>
+    <button class="button button-secondary install-app-button" type="button" id="install-app-button" aria-label="Instalar Pilar a Pilar"><span aria-hidden="true">⇩</span><span class="install-button-label">Instalar</span></button>
+    <nav class="main-nav" id="main-nav" aria-label="Navegación principal" hidden>
+      <button class="nav-link" type="button" data-nav="dashboard">Mi panel</button>
+      <button class="nav-link" type="button" data-nav="guide">Guía de pilares</button>
+      <button class="nav-link" type="button" data-nav="history">Mi evolución</button>
+      <button class="nav-link" type="button" data-nav="settings">Ajustes</button>
+    </nav>
+    <button class="mobile-menu-button" type="button" id="mobile-menu-button" aria-label="Abrir navegación" aria-expanded="false" aria-controls="main-nav" hidden>
+      <span aria-hidden="true">☰</span>
+    </button>
+  </header>
+
+  <main id="main-content" class="app-main" tabindex="-1">
+    <div class="loading-state" role="status">Preparando tu espacio personal…</div>
+  </main>
+
+  <footer class="site-footer">
+    <p>Tu progreso no es una competencia. Un paso pequeño también cuenta.</p>
+    <p class="privacy-note">Tus datos se guardan en este navegador y no se envían a un servidor.</p>
+  </footer>
+
+  <div id="toast-region" class="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>
